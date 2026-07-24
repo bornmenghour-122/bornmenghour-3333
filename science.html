@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="dak" href="index.html" style="text-align: left">Back</a>
+    <section class="card" id="add-student-card">
+  <h2>Welcome, Social Student</h2>
+  
+
+  <form id="student-form"> 
+    <div class="field">
+      <label for="score-math">Khmer</label>
+      <input type="number" id="score-math" min="0" max="75" placeholder="0-75" required>
+    </div>
+    <div class="field">
+      <label for="score-khmer">Math</label>
+      <input type="number" id="score-khmer" min="0" max="125" placeholder="0-125" required>
+    </div>
+    <div class="field">
+      <label for="score-history">Biology</label>
+      <input type="number" id="score-history" min="0" max="75" placeholder="0-75" required>
+    </div>
+    <div class="field">
+      <label for="score-env">History</label>
+      <input type="number" id="score-env" min="0" max="50" placeholder="0-50" required>
+    </div>
+    <div class="field">
+      <label for="score-geo">Chemistry</label>
+      <input type="number" id="score-geo" min="0" max="75" placeholder="0-75" required>
+    </div>
+    <div class="field">
+      <label for="score-morals">Physics</label>
+      <input type="number" id="score-morals" min="0" max="75" placeholder="0-75" required>
+    </div>
+    <div class="field">
+      <label for="score-english">English</label>
+      <input type="number" id="score-english" min="0" max="50" placeholder="0-50" required>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Add Student</button>
+    <p class="form-message" id="form-message"></p>
+  </form>
+</section>
+</body>
+</html>
